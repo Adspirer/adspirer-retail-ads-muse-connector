@@ -55,9 +55,10 @@
     }
   ],
   "examplePrompts": [
-    "I sell a stainless-steel water bottle on Amazon in the US. Draft a Sponsored Products launch plan with an automatic campaign at $25 a day and a manual exact-match campaign from keywords you research. Show me the plan; if I approve, create both paused and do not enable them without a separate yes.",
-    "Review my Amazon Ads account for the last 30 complete days. Show spend, sales, ACoS and ROAS by campaign, flag the campaigns above 35% ACoS, and explain why in plain English. Do not change anything.",
-    "Mine my Amazon search-term report from the last 60 days. Show which terms converted and should become exact-match keywords, and which spent without sales and should be negatives. Ask before adding anything.",
-    "Which of my Walmart Connect campaigns ran out of budget in the last week, and what budgets does Walmart suggest? Show the numbers and wait for my approval before raising any budget."
+    "Show my Amazon Ads performance for the last 30 days by campaign: spend, sales, ACoS and ROAS, with totals. Flag any campaign above 35% ACoS and explain why in plain English.",
+    "Mine my Amazon search-term report for the last 60 days: which terms converted and should become exact-match keywords, and which spent money without a sale and should be negatives. Don't add anything yet.",
+    "List my Walmart Connect campaigns with their status, daily budgets and targeting type, and show which ones ran out of budget in the last 7 days with Walmart's suggested budgets.",
+    "Show my Walmart Connect keyword performance for the last 30 days: spend, attributed sales, ACoS and ROAS per keyword, and point out the keywords I should cut. Don't change anything.",
+    "Create a paused Amazon Sponsored Products automatic campaign for my stainless-steel water bottle at $25 a day. Show me the plan first, and keep it paused after it's created."
   ]
 }
