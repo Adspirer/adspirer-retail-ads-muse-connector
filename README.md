@@ -21,7 +21,7 @@ This is Adspirer's company-owned **submission kit for the Muse hosted MCP connec
 - What it does: ACoS, ROAS and spend reporting, search-term mining, keyword and negative-keyword management, bid and budget changes, out-of-budget alerts, and paused campaign creation for Amazon Sponsored Products, Sponsored Brands and Sponsored Display and Walmart Connect Sponsored Products.
 - Why it beats the browser: it reads the user's own advertiser accounts through the Amazon Ads API and Walmart Connect API, so answers come from real account data, and it finishes approved changes in the account instead of sending the user to the advertising console.
 
-An Adspirer account, an applicable Adspirer plan, and authorized access to at least one Amazon Ads profile or Walmart Connect advertiser. Walmart Connect is available for US advertisers. Capabilities depend on platform permissions, eligibility, plan limits and the platforms' API limits. Advertising spend is billed separately by Amazon and Walmart. Muse connector availability is subject to review and enablement.
+An Adspirer account and admin access to at least one Amazon Ads or Walmart Connect account (read-only access is enough for reporting).
 
 ## Tools
 
