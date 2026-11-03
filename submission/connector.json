@@ -1,0 +1,63 @@
+{
+  "format": "adspirer-submission-kit-v1",
+  "version": "1.0.0",
+  "name": "Adspirer Retail Media Ads",
+  "company": "Adspirer",
+  "description": "Retail media agent for Amazon Ads and Walmart Connect. Review Sponsored Products, Sponsored Brands and Sponsored Display performance, track ACoS and ROAS, mine search terms, find wasted spend, and plan, create and optimize campaigns, with your approval before any change that affects spend.",
+  "repository": "https://github.com/Adspirer/adspirer-retail-ads-muse-connector",
+  "productWebsite": "https://www.adspirer.com/integrations/f/muse",
+  "documentation": "https://www.adspirer.com/docs/ai-clients/muse",
+  "mcpDocumentation": "https://www.adspirer.com/docs/mcp",
+  "privacyPolicy": "https://www.adspirer.com/privacy",
+  "termsOfService": "https://www.adspirer.com/terms",
+  "contactEmail": "abhi@adspirer.com",
+  "supportEmail": "support@adspirer.com",
+  "icon": "assets/icon.svg",
+  "connectionType": "Existing MCP",
+  "endpoint": "https://mcp.adspirer.com/retail-ads",
+  "transport": "Streamable HTTP",
+  "authentication": "OAuth with PKCE",
+  "pkceMethod": "S256",
+  "accessRequirements": "An Adspirer account, an applicable Adspirer plan, and authorized access to at least one Amazon Ads profile or Walmart Connect advertiser. Walmart Connect is available for US advertisers. Capabilities depend on platform permissions, eligibility, plan limits and the platforms' API limits. Advertising spend is billed separately by Amazon and Walmart. Muse connector availability is subject to review and enablement.",
+  "toolCatalogDate": "2026-11-02",
+  "tools": [
+    {
+      "name": "get_connections_status",
+      "class": "Read"
+    },
+    {
+      "name": "get_usage_status",
+      "class": "Read"
+    },
+    {
+      "name": "get_tool_schema",
+      "class": "Read"
+    },
+    {
+      "name": "amazon_ads_read",
+      "class": "Read"
+    },
+    {
+      "name": "walmart_ads_read",
+      "class": "Read"
+    },
+    {
+      "name": "activate_ad_accounts",
+      "class": "Write"
+    },
+    {
+      "name": "amazon_ads_write",
+      "class": "Sensitive write"
+    },
+    {
+      "name": "walmart_ads_write",
+      "class": "Sensitive write"
+    }
+  ],
+  "examplePrompts": [
+    "I sell a stainless-steel water bottle on Amazon in the US. Draft a Sponsored Products launch plan with an automatic campaign at $25 a day and a manual exact-match campaign from keywords you research. Show me the plan; if I approve, create both paused and do not enable them without a separate yes.",
+    "Review my Amazon Ads account for the last 30 complete days. Show spend, sales, ACoS and ROAS by campaign, flag the campaigns above 35% ACoS, and explain why in plain English. Do not change anything.",
+    "Mine my Amazon search-term report from the last 60 days. Show which terms converted and should become exact-match keywords, and which spent without sales and should be negatives. Ask before adding anything.",
+    "Which of my Walmart Connect campaigns ran out of budget in the last week, and what budgets does Walmart suggest? Show the numbers and wait for my approval before raising any budget."
+  ]
+}
